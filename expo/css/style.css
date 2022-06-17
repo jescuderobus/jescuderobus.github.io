@@ -1,0 +1,42 @@
+body {
+    background-color: #3F3F3F;
+    color:white;
+}
+
+.column1, .column2{
+    float:left;
+    width:49%;
+    border-color:red;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.column1 {
+    height:950px;
+    background-image: url(../images/imagenDeFondoRec.png);
+    background-repeat: no-repeat;
+}
+
+.row{
+    width:100%;
+}
+
+.imgleft{
+    width: 95%;
+}
+
+.titulo{
+    padding:1em;
+    font-size: 4em;
+    text-align: center;
+}
+.subtitulo{
+    padding:1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+
+
