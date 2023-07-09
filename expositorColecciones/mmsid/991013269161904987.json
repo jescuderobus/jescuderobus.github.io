@@ -13,12 +13,12 @@
         "portada": "http://syndetics.com/index.php?client=primo&isbn=1-282-18028-2/lc.jpg"
     },
     "opiniones": {
-        "html5_podcast1":"<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20191020_050000_060000/' width='100%' height='300' frameborder='0' allowfullscreen></iframe>",
+        "html5_podcast1":"<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20191020_050000_060000/' width='100%'  frameborder='0' allowfullscreen></iframe>",
         "opinion1": "Los Pazos de Ulloa es una visión aguda y conmovedora de la sociedad rural gallega en el siglo XIX.",
         "opinion2": "Pardo Bazán ofrece un retrato sin concesiones de la vida en el campo, la política local y las tensiones entre tradición y modernidad.",
         "opinion3": "La novela es un estudio penetrante de la condición humana y las dificultades de la reforma moral y social.",
         "opinion4": "La prosa de Pardo Bazán es rica y evocadora, pintando un cuadro detallado y convincente de su Galicia natal.",
-        "opinion5": "Una obra maestra de la literatura española que combina el realismo con una percepción aguda de la psicología humana."
+        "html5_podcast2": "<iframe width='560' height='315' src='https://www.youtube.com/embed/fqouxHfIWgQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
     },
     "urls": {
         "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,los%20pazos%20de%20ulloa&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&facet=rtype,include,books&offset=0",
