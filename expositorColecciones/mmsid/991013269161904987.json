@@ -1,0 +1,28 @@
+{
+    "marc21": {
+        "titulo": "Los Pazos de Ulloa",
+        "autor": "Emilia Pardo Bazán",
+        "fechaDePublicacion": "1886",
+        "genero": "Novela",
+        "editorial": "Biblioteca de Autores Españoles",
+        "idiomaOriginal": "Español",
+        "resumen": "Los Pazos de Ulloa es una novela de la escritora Emilia Pardo Bazán. La trama gira en torno a Julián, un sacerdote joven e inocente enviado a la remota finca de los Pazos de Ulloa en Galicia, donde se encuentra con la rudeza de la vida rural, las luchas políticas locales y los retos del clericalismo. La novela es una crítica a las estructuras tradicionales y una exploración de las contradicciones entre los ideales y la realidad.",
+        "ubicacion": "Galicia, España, siglo XIX",
+        "paginas": 368,
+        "isbn": "978-84-376-0494-9",
+        "portada": "http://syndetics.com/index.php?client=primo&isbn=1-282-18028-2/lc.jpg"
+    },
+    "opiniones": {
+        "html5_podcast1":"<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20191020_050000_060000/' width='100%' height='300' frameborder='0' allowfullscreen></iframe>",
+        "opinion1": "Los Pazos de Ulloa es una visión aguda y conmovedora de la sociedad rural gallega en el siglo XIX.",
+        "opinion2": "Pardo Bazán ofrece un retrato sin concesiones de la vida en el campo, la política local y las tensiones entre tradición y modernidad.",
+        "opinion3": "La novela es un estudio penetrante de la condición humana y las dificultades de la reforma moral y social.",
+        "opinion4": "La prosa de Pardo Bazán es rica y evocadora, pintando un cuadro detallado y convincente de su Galicia natal.",
+        "opinion5": "Una obra maestra de la literatura española que combina el realismo con una percepción aguda de la psicología humana."
+    },
+    "urls": {
+        "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,los%20pazos%20de%20ulloa&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&facet=rtype,include,books&offset=0",
+        "url_GOOGLE": "https://books.google.es/books/about/Los_Pazos_de_Ulloa.html?id=3bP9e0et1TEC&redir_esc=y",
+        "url_ALEJANDRIA": "https://www.elejandria.com/libro/los-pazos-de-ulloa/pardo-bazan-emilia/833"
+    }
+}

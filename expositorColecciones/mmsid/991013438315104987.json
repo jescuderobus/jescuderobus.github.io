@@ -1,0 +1,27 @@
+{
+    "marc21": {
+        "titulo": "Bartleby, el escribiente",
+        "autor": "Herman Melville",
+        "fechaDePublicacion": "1853",
+        "genero": "Novela corta",
+        "editorial": "Putnam's Magazine",
+        "idiomaOriginal": "Inglés",
+        "resumen": "Bartleby, el escribiente es una de las narraciones más famosas de Herman Melville. La historia, que se desarrolla en la Wall Street de mediados del siglo XIX, narra la peculiar historia de Bartleby, un copista que trabaja en una oficina de abogados y que un día decide que 'preferiría no hacerlo' cuando se le asigna un trabajo. Lo que sigue es un examen profundo de la resistencia pasiva y la desobediencia civil en una sociedad cada vez más burocrática.",
+        "ubicacion": "Nueva York, EE. UU., mediados del siglo XIX",
+        "paginas": 64,
+        "isbn": "978-84-376-0494-9",
+        "portada": "http://syndetics.com/index.php?client=primo&isbn=1-4135-1895-8/lc.jpg"
+    },
+    "opiniones": {
+        "html5_podcast1":"<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20190810_200000_210000/' width='100%' height='400' frameborder='0' allowfullscreen></iframe>",
+        "opinion1": "Bartleby, el escribiente es una crítica mordaz a la deshumanización del trabajo en la sociedad capitalista.",
+        "opinion2": "Melville presenta un retrato desolador y a la vez cómico de la rebeldía en un mundo burocrático.",
+        "opinion3": "Bartleby es un personaje fascinante y enigmático que captura la imaginación del lector.",
+        "opinion4": "El estilo de Melville es sutil y profundo, y la historia es a la vez intrigante y trágica.",
+        "opinion5": "Una obra esencial que nos invita a reflexionar sobre la individualidad y la conformidad."
+    },
+    "urls": {
+        "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,bartleby%20el%20escribiente&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&mfacet=rtype,include,books,1&offset=0",
+        "url_GOOGLE": "https://books.google.es/books?id=7pgsJgAACAAJ&source=gbs_book_other_versions"
+    }
+}

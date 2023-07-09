@@ -1,0 +1,28 @@
+{
+  "marc21": {
+    "titulo": "Madame Bovary",
+    "autor": "Gustave Flaubert",
+    "fechaDePublicacion": "1856",
+    "genero": "Novela",
+    "editorial": "Michel Lévy Frères",
+    "idiomaOriginal": "Francés",
+    "resumen": "Madame Bovary es la historia de una mujer insatisfecha cuyo sueño es una vida más apasionada y lujosa, lejos de su matrimonio monótono y provinciano. Esto la lleva a una serie de asuntos extramaritales y al desastre financiero.",
+    "ubicacion": "Francia del siglo XIX",
+    "paginas": 500,
+    "isbn": "978-3-16-148410-0",
+    "portada": "http://syndetics.com/index.php?isbn=9781405865319/lc.jpg"
+  },
+  "opiniones": {
+    "html5_podcast1": "<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20190629_200000_210000/' width='100%' height='400' frameborder='0' allowfullscreen></iframe>",
+    "html5_podcast2": "<p>La obra sometida a juicio <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_31434883_6_1.html?c1=2d2c35' loading='lazy'></iframe></p>",
+    "html5_audio": "<p> Escucha el primer capítulo <audio id='audio_player_podcasts' src='https://archive.org/download/senorabovary_1604_librivox/bovary_01_flaubert_64kb.mp3' controls='' controlslist='nodownload' style='width: 100%; margin: 15px auto;' __idm_id__='2940929'>HTML5 audio not supported</audio></p>",
+    "Julian Barnes": "\"Flaubert inventó la literatura moderna con Madame Bovary. Creó una heroína que no es ni buena ni mala, solo humana.\"",
+    "Mario Vargas Llosa": "\"La belleza de Madame Bovary reside en su realismo.\""
+  },
+  "urls": {
+    "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,madame%20bovary&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&mfacet=rtype,include,books,1&offset=0",
+    "url_GOOGLE": "https://books.google.es/books/about/Madame_Bovary.html?id=Cg5CwY-GAl0C&redir_esc=y",
+    "url_CASALIBRO": "https://www.casadellibro.com/libro-madame-bovary/9788467048520/3058167",
+    "url_ALEJANDRIA": "https://www.elejandria.com/libro/descargar/madame-bovary/gustave-flaubert/985/1711"
+  }
+}

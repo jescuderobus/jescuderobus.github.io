@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Colección ULUH</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/masonry/"
+      />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+      />
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+      .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      }
+      @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+      }
+    </style>
+
+    <style>
+
+.textoAcordeon{
+  font-weight: bold;
+}
+
+.modal.freeze .modal-header .btn-close, .modal.freeze .modal-backdrop {
+    display: none;
+}
+
+.modal.freeze .btn-lock {
+    color: red;
+}
+
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 1em;
+}
+
+.accordion-body{
+  background-color: rgb(233,233,233);
+}
+
+    </style>
+
+<style>
+#cover-image-container {
+  text-align: center;
+}
+
+#cover-image {
+  width: 80%;
+  margin: 1em;
+}
+
+.libro-marc21{
+  padding: 0.2em;
+  font-size: 1.2em;
+}
+
+.img-top-right {
+  position: absolute;
+  top: 5em;
+  right: 2em;
+  width: 2em; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 2em; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+</style>
+
+
+  </head>
+  <body>
+
+
+<main class="container py-5">
+  <h1>Colección - <b><i>Un Libro Una Hora</i></b></h1>
+  <hr class="my-5" />
+  <div class="row" data-masonry='{"percentPosition": true }'>
+
+<!--Card Presentación de Colección -->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img src="coleccion_ULUH/logoULUH.jpg">
+    <div class="card-body">
+      <h5 class="card-title">ULUH</h5>
+      <p class="card-text">
+        Aprende a leer, aprende de literatura escuchando. Un programa para contar un libro en una hora. Grandes clásicos de la literatura que te entran por el oído.
+      </p>
+    </div>
+  </div>
+</div>
+<!--Fin presentación colección-->
+
+<!-- Card con cita famosa en fondo azul -->        
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card bg-primary text-white text-center p-3">
+    <figure class="mb-0">
+      <blockquote class="blockquote">
+        <p>
+          Un libro abierto es un cerebro que habla; cerrado, un amigo que espera; olvidado, un alma que perdona; destruido, un corazón que llora.
+        </p>
+      </blockquote>
+      <figcaption class="blockquote-footer mb-0 text-white">
+        <cite title="Source Title">Proverbio Hindú</cite>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+<!-- FIN Cita famosa en fondo azul --> 
+
+
+<!-- Libro "Doña Perfecta" -->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991003777869704987"
+      src="http://books.google.com/books/content?id=hLp4BQAAQBAJ&printsec=frontcover&img=1&zoom=3"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991003777869704987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+<!-- Libro Madame Bovary-->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991009298309704987"
+      src="http://syndetics.com/index.php?isbn=9781405865319/lc.jpg"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991009298309704987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+<!-- Libro El gran Gatsby-->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991011012119704987"
+      src="http://syndetics.com/index.php?client=primo&isbn=9788497936606/lc.jpg"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991011012119704987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+<!-- Card con cita famosa en fondo azul -->        
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card bg-primary text-white text-center p-3">
+    <figure class="mb-0">
+      <blockquote class="blockquote">
+        <p>
+          Hasta que no hayas leído un libro, tu vida es solo una vida. Pero una vez que lees, puedes vivir mil vidas.
+        </p>
+      </blockquote>
+      <figcaption class="blockquote-footer mb-0 text-white">
+        <cite title="Source Title">R. David Lankes</cite>
+        (1970-) Bibliotecario estadounidense
+      </figcaption>
+    </figure>
+  </div>
+</div>
+<!-- FIN Cita famosa en fondo azul --> 
+
+<!-- Libro Bartleby-->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991013438315104987"
+      src="http://syndetics.com/index.php?client=primo&isbn=1-4135-1895-8/lc.jpg"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991013438315104987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+
+
+<!-- Portada de un Libro -->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991005359259704987"
+      src="http://syndetics.com/index.php?client=primo&isbn=8479545887/lc.jpg"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991005359259704987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+
+<!-- Portada de un Libro -->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991007899209704987"
+      src="http://books.google.com/books/content?id=dMHeMgAACAAJ&printsec=frontcover&img=1&zoom=5"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991007899209704987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+<!-- Libro "Los pazos de ulloa" -->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991013269161904987"
+      src="http://syndetics.com/index.php?client=primo&isbn=1-282-18028-2/lc.jpg"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991013269161904987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+<!-- Card con cita famosa en fondo azul -->        
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card bg-primary text-white text-center p-3">
+    <figure class="mb-0">
+      <blockquote class="blockquote">
+        <p>
+          «Gastar dinero en los libros es una inversión que rinde buen interés»
+        </p>
+      </blockquote>
+      <figcaption class="blockquote-footer mb-0 text-white">
+        <cite title="Source Title">Benjamin Franklin</cite>
+        (1705-1790) Político e inventor estadounidense
+      </figcaption>
+    </figure>
+  </div>
+</div>
+<!-- FIN Cita famosa en fondo azul --> 
+
+<!-- Libro "El Camino" -->
+<div class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <img
+      class="card-img"
+      id="991002205159704987"
+      src="http://syndetics.com/index.php?client=primo&isbn=8423310353/lc.jpg"
+      data-bs-toggle="modal"
+      data-bs-target="#modal"
+      data-bs-id="https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991002205159704987"
+      />
+  </div>
+</div>
+<!-- Fin de un Libro -->
+
+<!-- Bloque Ayuda -->
+<div id="ayuda" class="col-sm-6 col-lg-3 mb-4">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title" style="text-align: center;">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#modalAyuda">
+          <img src="imagenes/help_icon.svg"/>
+        </a></h5>
+      <p class="card-text">
+        Algunas preguntas que nos han hecho sobre esta página web
+      </p>
+      <p class="card-text">
+        <small class="text-muted">Last updated 1 day ago</small>
+      </p>
+    </div>
+  </div>
+</div>
+<!-- Fin de Ayuda -->
+
+      </div> <!-- Fin del div mansonry -->
+
+</main>
+
+<!-- Modal de ayuda -->
+<div class="modal fade" id="modalAyuda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" >Preguntas Frecuentes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          <b>¿Por qué habeis creado esta página?</b><br>
+          Cualquier pretexto para iniciar una lectura es bueno, pero hay algunos especialmente interesantes y queremos 
+          ponerlos de relieve: recomendaciones de amigos, intereses de la actualidad, colecciones temáticas, programas radiofónicos, 
+          etc..<br>
+          En este caso el hilo conductor es un maravilloso programa de la Cadena Ser (una radio española) donde 
+          se resume un libro en una hora, tomando ese pretexto hemos buscado en nuestros anaqueles los libros por 
+          si el programa te convence para leerlos.
+        </p>
+        <p>
+          <b>La parte superior de las páginas de recomendaciones tienen un icono de un candado ¿Para qué sirve?</b><br>
+          Bloquea la pantalla e impide que se cierre la recomendación. Está pensado para que si estás escuchando o visualizando 
+          una recomendación sonora en un móvil no se te cierre accidentalmente y tengas que volver a cargarla.
+        </p>
+        <p>
+          <b>En el apartado final de las recomendaciones se incluyen enlaces a webs comerciales ¿Por qué?</b><br>
+          - El enlace que destacamos es el de la Biblioteca de la Universidad de Sevilla<br>
+          - Se incluyen enlaces a librerías por si alguien quiere comprar el libro físico y así apoyar el tejido cultural local. <br>
+          - Muy a menudo las páginas web de librerias contienen enlaces a las primeras páginas de un libro.
+        </p>
+        <p>
+          <b>En algún libro he visto que puedo descargármelo y leerlo, ¿es esto legal?</b><br>
+          Sí. En los libros que son de dominio público (han expirado los derechos de autor) procuraremos poner enlaces para que accedas más facilmente al libro.
+        </p>
+        <p>
+          <b>Las portadas de los libros se ven borrosas</b><br>
+          Sí, lo sabemos. El servicio que tiene contratado nuestra biblioteca para mostrar las portadas de libros
+          nos dá unas imágenes de una calidad muy pobre.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FIN Modal de ayuda -->
+
+<!-- Modal de recomendacion -->
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">ID del Elemento</h5>
+      <div class="modal-buttons"><!-- Agrupamos los botones -->
+        <button type="button" class="btn-lock" aria-label="Congelar"
+        style="background: none; border: none; padding: 0; font: inherit; color: inherit; cursor: pointer;">
+          <i class="fa fa-thin fa-unlock"></i>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div> <!-- Cierre modal header -->  
+    <div class="modal-body">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <div class="textoAcordeon">te recomendamos</div>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <div id="marc21"> </div>
+              <div class="trampantojo">
+                <div class="row">
+                    <div class="col-5" id="cover-image-container"></div>
+                    <div class="col-7" id="book-details">
+                      <img class="img-top-right" src="imagenes/pin.png" alt="pin">
+                      <h5>LIBRO</h5>
+                      <hr>
+                      <span id="libro-titulo" class="libro-marc21">Título</span><br>
+                      <span id="libro-autor" class="libro-marc21">Autor</span><br>
+                      <span id="libro-fechaDePublicacion" class="libro-marc21">Fecha</span><br>
+                      <span id="libro-genero" class="libro-marc21">Género</span><br>
+                      <span id="libro-isbn" class="libro-marc21">ISBN</span><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" id="book-summary-location">
+                      <h5>RESUMEN</h5>
+                      <hr>
+                      <p>
+                          <span id="libro-ubicacion">Ubicación</span>
+                          <span id="libro-resumen">Resumen</span>
+                      </p>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          </div> <!-- Esta es la etiqueta de cierre del Primer 'accordion-item' que debería estar aquí -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              <div class="textoAcordeon">porque hemos visto estas opiniones y reseñas</div>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <div id="opiniones"></div>
+            </div>
+          </div>
+          </div> <!-- Esta es la etiqueta de cierre de la segunda 'accordion-item' que debería estar aquí -->   
+        <div class="accordion-item"> <!-- Esta es la apertura de la tercera 'accordion-item' -->
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <div class="textoAcordeon">si lo quieres está en la BUS</div>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <a id="casaLibro" target="_blank" href="#"><img src="imagenes/logoCasaLibro.png" width="100px" alt="Casa del libro"></a>
+                <a id="GoogleBooks" target="_blank" href="#"><img src="imagenes/logoGBook.png" width="100px" alt="google Books"></a>
+                <a id="Alejandria" target="_blank" href="#"><img src="imagenes/logoAlejandria.png" width="100px" alt="Dominio Público"></a>
+                <a id="Fama" target="_blank" href="#"><img src="imagenes/logoBUS.png" width="200px" alt="Biblioteca de la Universdad de Sevilla" style="margin:10px"></a>
+              </div>
+            </div>
+          </div> <!-- Etiqueta de cierre de la tercera 'accordion-item' -->
+      </div> <!-- Cierre accordion -->
+    </div> <!-- Cierre modal body -->
+    </div> <!-- Cierre modal content -->
+  </div>
+</div>
+<!-- FIN Modal de recomendacion -->
+
+<script>
+  var myModal = document.getElementById('modal')
+
+  myModal.addEventListener('hide.bs.modal', function () {
+
+  var iframes = myModal.getElementsByTagName('iframe');
+  for (var i = 0; i < iframes.length; i++) {
+    iframes[i].src = iframes[i].src;
+  }
+
+  var bsCollapse = new bootstrap.Collapse(document.getElementById('panelsStayOpen-collapseOne'), {
+  toggle: false
+
+});
+
+bsCollapse.show();
+
+var bsCollapseTwo = new bootstrap.Collapse(document.getElementById('panelsStayOpen-collapseTwo'), {
+  toggle: false
+});
+
+bsCollapseTwo.hide();
+
+var bsCollapseThree = new bootstrap.Collapse(document.getElementById('panelsStayOpen-collapseThree'), {
+  toggle: false
+});
+
+bsCollapseThree.hide();
+    
+    // Aquí restableceremos el contenido del modal a su estado original
+    document.querySelector('#marc21').innerHTML = '';
+    document.querySelector('#cover-image-container').innerHTML = '';
+    //document.querySelector('#book-details').innerHTML = '';
+    //document.querySelector('#book-summary-location').innerHTML = '';
+    document.querySelector('#opiniones').innerHTML = '';
+    document.querySelector('#exampleModalLabel').innerText = 'ID del Elemento';
+    
+
+});
+myModal.addEventListener('show.bs.modal', function (event) {
+  var button = event.relatedTarget
+  let images = document.querySelectorAll('.card-img');
+images.forEach((image) => {
+    image.addEventListener('click', function() {
+        let id = this.getAttribute('id');
+        fetch(`mmsid/${id}.json`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                return response.json();
+            })
+            .then(json => {
+                let marc21 = document.querySelector('#marc21');
+                let bookSummaryLocation = document.getElementById('book-summary-location');
+                let coverImageContainer = document.getElementById('cover-image-container');
+                let bookDetails = document.getElementById('book-details');
+                let opiniones = document.querySelector('#opiniones');
+                let modalTitle = document.querySelector('#exampleModalLabel');
+                //marc21.innerHTML = ''; // limpia el contenido previo
+                //bookSummaryLocation.innerHTML ='';
+                //coverImageContainer.innerHTML ='';
+                //bookDetails.innerHTML ='';
+                opiniones.innerHTML = ''; // limpia el contenido previo
+                
+                // Establecer el título del modal
+                if(json.marc21.titulo){
+                    modalTitle.innerText = json.marc21.titulo;
+                }
+
+//                console.log(json.marc21.titulo);
+
+
+     
+// Insertamos la ubicación y el resumen
+document.getElementById('libro-ubicacion').textContent = "(" + json.marc21.ubicacion + ") ";
+document.getElementById('libro-resumen').textContent = json.marc21.resumen;
+// Insertamos los detalles del libro
+document.getElementById('libro-titulo').textContent = json.marc21.titulo;
+document.getElementById('libro-autor').textContent = json.marc21.autor;
+document.getElementById('libro-fechaDePublicacion').textContent = json.marc21.fechaDePublicacion;
+document.getElementById('libro-genero').textContent = json.marc21.genero;
+document.getElementById('libro-isbn').textContent = json.marc21.isbn;
+
+// console.log(json.marc21.portada);
+
+// Creamos un nuevo elemento img
+var img = document.createElement('img');
+img.id = 'cover-image';
+img.src = json.marc21.portada;
+// Insertamos la imagen en el div cover-image-container
+document.getElementById('cover-image-container').innerHTML='';
+document.getElementById('cover-image-container').appendChild(img);
+
+// Añadir las opiniones al div opiniones
+for (let key in json.opiniones) {
+if (json.opiniones.hasOwnProperty(key)) {
+  let p = document.createElement('p');
+  console.log(key);
+  if (key.startsWith('html5_')) {
+      p.innerHTML = json.opiniones[key];
+  } else {
+      p.textContent = key + ": " + json.opiniones[key];
+  }
+  opiniones.appendChild(p);
+}
+}
+      
+// Actualizar los enlaces con las URL de los datos JSON
+var linkFama = document.getElementById('Fama');
+var linkGoogle = document.getElementById('GoogleBooks');
+var linkCasaLibro = document.getElementById('casaLibro');
+var linkAlejandria = document.getElementById('Alejandria');
+
+linkFama.style.display = "";
+linkGoogle.style.display = "";
+linkCasaLibro.style.display = "";
+linkAlejandria.style.display = "";
+
+if (json.urls && json.urls.url_FAMA) {
+    linkFama.href = json.urls.url_FAMA;
+} else {
+    linkFama.style.display = "none";
+}
+
+if (json.urls && json.urls.url_GOOGLE) {
+    linkGoogle.href = json.urls.url_GOOGLE;
+} else {
+    linkGoogle.style.display = "none";
+}
+
+if (json.urls && json.urls.url_CASALIBRO) {
+    linkCasaLibro.href = json.urls.url_CASALIBRO;
+} else {
+    linkCasaLibro.style.display = "none";
+}
+
+if (json.urls && json.urls.url_ALEJANDRIA) {
+    linkAlejandria.href = json.urls.url_ALEJANDRIA;
+} else {
+    linkAlejandria.style.display = "none";
+}
+
+      
+                  })
+                  .catch(function() {
+                      console.log("Error al cargar el archivo JSON");
+
+                  });
+          });
+      }); 
+      })
+    </script>
+
+<script>
+
+// Javascript relativo al botón lock-unlock-congelar  
+var freezeButton = document.querySelector('.btn-lock');
+freezeButton.addEventListener('click', function() {
+    var modal = document.getElementById('modal');
+    var bootstrapModal = bootstrap.Modal.getInstance(modal);  // Get modal instance
+    var icon = this.querySelector('i');
+    if (modal.classList.contains('freeze')) {
+        modal.classList.remove('freeze');
+        icon.classList.remove('fa-lock');
+        icon.classList.add('fa-unlock');
+        this.style.color = ''; // o el color que sea cuando no esté congelado
+        bootstrapModal._config.backdrop = true;  // Enable backdrop click to close
+        bootstrapModal._config.keyboard = true;  // Enable escape key to close
+    } else {
+        modal.classList.add('freeze');
+        icon.classList.remove('fa-unlock');
+        icon.classList.add('fa-lock');
+        this.style.color = 'red'; // o el color que sea cuando esté congelado
+        bootstrapModal._config.backdrop = 'static';  // Disable backdrop click to close
+        bootstrapModal._config.keyboard = false;  // Disable escape key to close
+    }
+});
+
+</script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+      ></script>
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+      ></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+    "marc21": {
+        "titulo": "Noche",
+        "autor": "Alejandro Sawa",
+        "fechaDePublicacion": "1897",
+        "genero": "Poesía",
+        "editorial": "Biblioteca de Autores Españoles",
+        "idiomaOriginal": "Español",
+        "resumen": "Noche es una obra de Alejandro Sawa que contiene poesía con un toque oscuro y evocativo. La obra representa el alma atormentada del autor y su desesperación ante el sufrimiento humano y la injusticia social. Es una de las principales obras de Alejandro Sawa, y se le atribuye una notable influencia en los poetas del siglo XX.",
+        "ubicacion": "España, finales del siglo XIX",
+        "paginas": 80,
+        "isbn": "978-84-666-xxxx-x",
+        "portada": "http://syndetics.com/index.php?client=primo&isbn=8479545887/lc.jpg"
+    },
+    "opiniones": {
+        "html5_podcast1":"<iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_108175726_6_1.html?c1=1d213d' loading='lazy'></iframe>",
+        "opinion1": "Noche es una mirada profunda a la desesperación y el sufrimiento humano. Un viaje poético y oscuro.",
+        "opinion2": "La poesía de Sawa es intensa y llena de imágenes evocadoras. Una obra imprescindible para los amantes de la poesía.",
+        "opinion3": "Un libro que nos lleva a un viaje introspectivo, reflexivo y desgarrador en el corazón de la noche.",
+        "opinion4": "El estilo de Sawa es único, y su poesía toca temas universales de una manera conmovedora.",
+        "opinion5": "Una joya olvidada de la literatura española. Noche es una obra que merece ser redescubierta."
+    },
+    "urls": {
+        "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,noche%20alejandro%20sawa&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&mfacet=rtype,include,books,1&offset=0",
+        "url_GOOGLE": "https://books.google.es/books?id=xxxxxxxxxxxx&source=gbs_book_other_versions"
+    }
+}

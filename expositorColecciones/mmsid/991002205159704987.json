@@ -1,0 +1,27 @@
+{
+    "marc21": {
+      "titulo": "El Camino",
+      "autor": "Miguel Delibes",
+      "fechaDePublicacion": "1950",
+      "genero": "Novela",
+      "editorial": "Destino",
+      "idiomaOriginal": "Español",
+      "resumen": "El Camino es una novela que narra la vida rural en la España de mediados del siglo XX a través de los ojos de un niño llamado Daniel el Mochuelo. La novela es una reflexión sobre la infancia, la amistad y la vida en el campo, y a la vez una crítica a las desigualdades sociales de la época.",
+      "ubicacion": "Castilla, España en la década de 1950",
+      "paginas": 256,
+      "isbn": "978-84-233-2536-7",
+      "portada": "http://syndetics.com/index.php?isbn=8423310353/lc.jpg"
+    },
+    "opiniones": {
+      "html5_podcast1":"<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20190810_200000_210000/' width='100%' height='400' frameborder='0' allowfullscreen></iframe>",
+      "opinion1": "Una obra maestra de la literatura española y una bella representación de la vida rural.",
+      "opinion2": "El Camino es una lectura conmovedora. Delibes retrata la vida rural con una belleza y una honestidad sorprendentes.",
+      "opinion3": "Un relato nostálgico y emotivo que atrapa al lector desde la primera página.",
+      "opinion4": "La prosa de Delibes es maravillosamente descriptiva y evocativa.",
+      "opinion5": "Una obra esencial para entender la literatura española del siglo XX."
+    },
+    "urls": {
+      "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,el%20camino&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&mfacet=rtype,include,books,1&offset=0",
+      "url_GOOGLE": "https://books.google.es/books?id=pW8S_gAACAAJ&source=gbs_book_other_versions"
+    }
+}

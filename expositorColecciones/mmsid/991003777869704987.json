@@ -1,0 +1,28 @@
+{
+    "marc21": {
+        "titulo": "Doña Perfecta",
+        "autor": "Benito Pérez Galdós",
+        "fechaDePublicacion": "1876",
+        "genero": "Novela",
+        "editorial": "Imprenta de la Guirnalda",
+        "idiomaOriginal": "Español",
+        "resumen": "Doña Perfecta es una novela escrita por Benito Pérez Galdós. La obra es una crítica de la intolerancia y el fanatismo, personificados en la figura de Doña Perfecta, que se opone al matrimonio de su hija con su sobrino debido a sus diferencias políticas y religiosas. La historia se desarrolla en la ciudad ficticia de Orbajosa, que representa las pequeñas ciudades españolas con ideas retrógradas y conservadoras.",
+        "ubicacion": "Orbajosa, ciudad ficticia de España, siglo XIX",
+        "paginas": 416,
+        "isbn": "978-84-376-0494-9",
+        "portada": "http://books.google.com/books/content?id=hLp4BQAAQBAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    "opiniones": {
+        "html5_podcast1":"<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20190713_200000_210000/' width='100%' height='400' frameborder='0' allowfullscreen></iframe>",
+        "html5_audio": "<p>Dramatización de Doña Perfecta <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_49284069_6_1.html?c1=38501e' loading='lazy'></iframe></p>",
+        "opinion2": "Pérez Galdós presenta un cuadro vívido y detallado de la sociedad española del siglo XIX.",
+        "opinion3": "Una novela apasionante y trágica que muestra los peligros del extremismo y la intransigencia.",
+        "opinion4": "La prosa de Galdós es rica y evocativa, y sus personajes están maravillosamente desarrollados.",
+        "opinion5": "Una obra maestra de la literatura española que combina el drama familiar con la crítica social."
+    },
+    "urls": {
+        "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,doña%20perfecta&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&mfacet=rtype,include,books,1&offset=0",
+        "url_GOOGLE": "https://books.google.es/books/about/Do%C3%B1a_Perfecta.html?id=IjYoAQAAIAAJ&redir_esc=y",
+        "url_ALEJANDRIA": "https://www.elejandria.com/libro/dona-perfecta/benito-perez-galdos/535"
+    }
+}

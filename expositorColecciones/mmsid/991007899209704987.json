@@ -1,0 +1,27 @@
+{
+    "marc21": {
+        "titulo": "La Carretera",
+        "autor": "Cormac McCarthy",
+        "fechaDePublicacion": "2006",
+        "genero": "Ficción post-apocalíptica",
+        "editorial": "Random House",
+        "idiomaOriginal": "Inglés",
+        "resumen": "La Carretera es una novela post-apocalíptica que narra la travesía de un padre y su hijo a través de un paisaje devastado por un cataclismo no especificado que ha destruido casi toda la civilización y la vida en la Tierra. En su camino, tendrán que hacer frente a numerosos peligros, luchando por la supervivencia y manteniendo la esperanza en medio de la desolación.",
+        "ubicacion": "Estados Unidos en un futuro post-apocalíptico",
+        "paginas": 287,
+        "isbn": "978-84-9838-184-1",
+        "portada": "http://books.google.com/books/content?id=dMHeMgAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "opiniones": {
+        "html5_podcast1":"<iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_54081536_6_1.html?c1=1d213d' loading='lazy'></iframe>",
+        "html5_podcast2": "<iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_96228248_6_1.html?c1=c38a78' loading='lazy'></iframe>",
+        "opinion2": "La Carretera es una lectura conmovedora y desesperada. McCarthy pinta un mundo sombrío con una belleza desolada.",
+        "opinion3": "Un relato sombrío y poderoso que permanece con el lector mucho después de haber terminado el libro.",
+        "opinion4": "La prosa minimalista de McCarthy sirve perfectamente al tono de la historia, creando una atmósfera de desesperación y soledad.",
+        "opinion5": "Una visión sombría y aterradora de un futuro posible, narrada con una poesía desgarradora."
+    },
+    "urls": {
+        "url_FAMA": "https://fama.us.es/discovery/search?query=any,contains,la%20carretera&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&mfacet=rtype,include,books,1&offset=0",
+        "url_GOOGLE": "https://books.google.es/books?id=dGN6PwAACAAJ&source=gbs_book_other_versions"
+    }
+}

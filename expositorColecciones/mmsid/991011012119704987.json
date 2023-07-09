@@ -1,0 +1,29 @@
+{
+    "marc21": {
+      "titulo": "El Gran Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "fechaDePublicacion": "1925",
+      "genero": "Novela",
+      "editorial": "Charles Scribner's Sons",
+      "idiomaOriginal": "Inglés",
+      "resumen": "El Gran Gatsby es una novela acerca de la riqueza y la vida en la alta sociedad americana durante la época de la Prohibición. El personaje principal, Jay Gatsby, es un millonario misterioso que organiza fiestas extravagantes en su mansión con la esperanza de atraer la atención de su antiguo amor, Daisy Buchanan.",
+      "ubicacion": "Nueva York, Estados Unidos en la década de 1920",
+      "paginas": 200,
+      "isbn": "978-3-16-148410-0",
+      "portada": "http://syndetics.com/index.php?client=primo&isbn=9788497936606/lc.jpg"
+    },
+    "opiniones": {
+      "html5_podcast1":"<iframe src='https://cadenaser.com/embed/audio/460/cadenaser_unlibrounahora_20190706_200000_210000/' width='100%' height='400' frameborder='0' allowfullscreen></iframe>",
+      "opinion1": "Una descripción deslumbrante y trágica de la decadencia de la era del jazz.",
+      "opinion2": "El Gran Gatsby es una lectura obligada. Fitzgerald captura perfectamente la efímera naturaleza del sueño americano.",
+      "opinion3": "Una novela icónica y una crítica a la avaricia y el materialismo de la sociedad.",
+      "opinion4": "La prosa de Fitzgerald es increíblemente hermosa. Cada frase es una joya.",
+      "opinion5": "Encontré los personajes algo planos, pero la ambientación y la prosa compensan con creces."
+    },
+    "urls": {
+      "url_FAMA": "https://fama.us.es/permalink/34CBUA_US/3enc2g/alma991011012119704987",
+      "url_GOOGLE": "https://www.google.es/books/edition/El_Gran_Gatsby/1gP-DwAAQBAJ?hl=en&gbpv=0",
+      "url_ALEJANDRIA": "https://www.elejandria.com/libro/el-gran-gatsby/francis-scott-fitzgerald/1852"
+    }
+  }
+  
